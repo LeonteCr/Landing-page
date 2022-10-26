@@ -71,21 +71,38 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
+    padding-bottom: 5rem;
 }
 .titlu-info {
     font-size: 36px;
     font-weight: 900;
+    padding: 1.5rem;
 }
 img {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
 .foto {
     display: flex;
     gap: 50px;
+    padding: 2rem;
 }
 .subtext {
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
+    width: 180px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: 500;
+    
+    line-height: 1.3rem;
+}
+.imgsub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
 }
