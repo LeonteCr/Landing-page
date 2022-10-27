@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
 }
 .header {
     display: flex;
@@ -39,6 +44,7 @@ a {
 .titlu {
     color: #f9faf8;
     height: 250px; width: 517px;
+   
 }
 .poza {
     display: flex;
@@ -105,4 +111,62 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 0.2rem;
+}
+.citat {
+    display: flex;
+    flex-direction: column;
+    
+    height: 400px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 600px;
+}
+.semnatura {
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 370px;
+}
+.singup {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px 150px;
+    border-radius: 10px;
+    gap: 100px;
+}
+.intra  {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.buton {
+    display: flex;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    margin: 3rem;   
+}
+.buton > button {
+    margin: 0;
+    padding: 5px 30px;
+}
+.bold {
+    font-size: large;
+}
+.call {
+    line-height: 1.5rem;
+   
 }
